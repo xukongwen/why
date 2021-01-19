@@ -14,3 +14,23 @@ wish i can make it done.
 ## python
 更换pip中国源
 ~pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+## fbterm
+
+sudo apt install fbterm
+
+sudo setcap 'cap_sys_tty_config+ep' /usr/bin/fbterm
+
+vim ~/.fbtermrc
+
+## input install
+in tty or fbterm DO NOT install fcitx
+install fcitx-fbterm
+
+
+## install fonts
+
+sudo apt install xfonts-wqy
+
+
