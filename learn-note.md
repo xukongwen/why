@@ -11,3 +11,6 @@ wish i can make it done.
 ## all about "locale"
 
 
+## python
+更换pip中国源
+~pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
