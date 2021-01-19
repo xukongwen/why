@@ -34,3 +34,23 @@ install fcitx-fbterm
 sudo apt install xfonts-wqy
 
 
+##如何制作自定义镜像（树莓派）
+
+https://medium.com/platformer-blog/creating-a-custom-raspbian-os-image-for-production-3fcb43ff3630
+
+sudo fdisk -l
+
+sudo dd if=/dev/sdb of=/your/path/to/clone.img
+
+貌似就是硬拷贝。。。倒也方便
+
+
+
+
+
+
+
+
+
+
+
